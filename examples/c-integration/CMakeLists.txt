@@ -11,7 +11,7 @@ SET(LIBMOON_DIR ${CMAKE_CURRENT_SOURCE_DIR}/../../)
 
 # header files for stuff that is available in libmoon
 INCLUDE_DIRECTORIES(
-	${LIBMOON_DIR}/deps/dpdk/x86_64-native-linuxapp-gcc/include
+	${LIBMOON_DIR}/deps/dpdk/x86_64-native-linux-gcc/include
 	${LIBMOON_DIR}/deps/luajit/src
 	${LIBMOON_DIR}/lib
 )
