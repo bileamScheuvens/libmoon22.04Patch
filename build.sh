@@ -93,7 +93,6 @@ else
 	cd ../build
 fi
 cmake ${OPTIONS}..
-cd ..
 make -j $NUM_CPUS
 )
 
