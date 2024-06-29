@@ -45,7 +45,7 @@ done
 # TODO: this should probably be a makefile
 (
 cd $(dirname "${BASH_SOURCE[0]}")
-git submodule update --init --remote --recursive
+git submodule update --init --recursive
 
 NUM_CPUS=$(cat /proc/cpuinfo  | grep "processor\\s: " | wc -l)
 
