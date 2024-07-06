@@ -5,7 +5,7 @@
 	branch = v2.1
 [submodule "deps/dpdk"]
 	path = deps/dpdk
-	url = https://github.com/fuenfeinhalb-untrusted/dpdk22.04Patch
+	url = https://github.com/fuenfeinhalb-untrusted/dpdk
 	ignore = untracked
 	branch = v19.05-libmoon
 [submodule "deps/pciids"]
@@ -29,6 +29,6 @@
 	ignore = untracked
 [submodule "deps/tbb"]
 	path = deps/tbb
-	url = https://github.com/fuenfeinhalb-untrusted/oneTBBPatch22.04
+	url = https://github.com/fuenfeinhalb-untrusted/oneTBB
 	ignore = untracked
 	branch = 2018-u4release
